@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>小李的龙鸣博客</title>
+    <link>https://lhh2000.github.io/</link>
+    <description>Recent content on 小李的龙鸣博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-hans</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 28 Oct 2019 22:31:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://lhh2000.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>十月二十八的又一篇测试</title>
+      <link>https://lhh2000.github.io/posts/hey_world/</link>
+      <pubDate>Mon, 28 Oct 2019 22:31:25 +0800</pubDate>
+      
+      <guid>https://lhh2000.github.io/posts/hey_world/</guid>
+      <description>一二三 坐端正</description>
+    </item>
+    
+    <item>
+      <title>今日十月二十八</title>
+      <link>https://lhh2000.github.io/posts/hello_world/</link>
+      <pubDate>Sun, 27 Oct 2019 20:31:25 +0800</pubDate>
+      
+      <guid>https://lhh2000.github.io/posts/hello_world/</guid>
+      <description>一二三四五 上山打老虎 老虎打不到 打到小松鼠</description>
+    </item>
+    
+    <item>
+      <title>Friends</title>
+      <link>https://lhh2000.github.io/friends/</link>
+      <pubDate>Sun, 27 Oct 2019 17:01:18 +0800</pubDate>
+      
+      <guid>https://lhh2000.github.io/friends/</guid>
+      <description>fumeboy</description>
+    </item>
+    
+  </channel>
+</rss>

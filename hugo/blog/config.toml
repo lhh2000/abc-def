@@ -1,0 +1,63 @@
+baseURL = "https://lhh2000.github.io/"
+languageCode = "zh-hans"
+defaultContentLanguage = "zh-hans"
+title = "小李的龙鸣博客"
+theme = "example_blog_theme" # 此处的 example_blog_theme，指向 themes/example_blog_theme 这个文件夹。
+
+# 这里的 pygments 设置用于文章中代码的高亮处理
+pygmentsCodefences  = true
+pygmentsUseClasses  = true
+
+hasCJKLanguage = true
+# 如果 Chinese/Japanese/Korean 是这个博客的主要语言, 启用这个选项好让负责字数统计的程序可以正确的计数.
+
+rssLimit = 10
+# RSS feed 中条目的最大显示数量.
+
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+# 这条信息只会被 RSS template 使用.
+
+enableEmoji = true
+# 在你的博客里启用 emoji 表情，表情的代码可以在这里查阅 - https://www.webfx.com/tools/emoji-cheat-sheet/
+# 比如 "你好 ❤️ 世界"，其中 "❤️" 会被翻译成 emoji 中的 爱心
+
+[author]
+  name = "fumeboy"# 作者名
+
+[taxonomies]
+  tag = "tags"
+
+[params]
+  Bio = "苏喂苏喂苏喂"
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+  themeColor = "#494f5c"
+  footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  code_copy_button = true # Turn on/off the code-copy-button for code-fields
+
+  # 社交链接，如果你希望其他人可以通过你的博客访问到你的 知乎、豆瓣、GitHub、微博等网站的主页，可以在下面添加链接
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/"
+
+  [[params.social]]
+    name = "instagram"
+    url = "https://instagram.com/"
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/"
+
+[menu]# 菜单，作为网站的索引而使用
+
+  [[menu.main]]
+    name = "About"
+    url = "about_me/"
+    weight = 10
+    
+  [[menu.main]]
+    name = "friends"
+    url = "friends/"
+    weight = 11
